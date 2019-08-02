@@ -43,3 +43,23 @@ extension DateFormatter {
         self.dateFormat = dateFormat
     }
 }
+
+extension UIView {
+    
+    public func setGrayBorder() {
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.gray.cgColor
+    }
+    
+    public func setShadow() {
+        self.layer.masksToBounds = false
+        self.layer.shadowRadius = 10
+        self.layer.shadowOffset = .zero
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowOpacity = 1
+        
+        
+    }
+    
+    
+}

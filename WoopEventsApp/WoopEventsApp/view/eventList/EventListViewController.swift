@@ -80,11 +80,7 @@ extension EventListViewController: UITableViewDataSource {
         cell.monthLabel.text = monthFormatter.string(from: date).uppercased()
         cell.yearLabel.text = yearFormatter.string(from: date)
         
-        cell.eventView.layer.shadowPath = UIBezierPath(rect: cell.eventView.bounds).cgPath
-        cell.eventView.layer.shadowRadius = 1.0
-        cell.eventView.layer.shadowOffset = .zero
-        cell.eventView.layer.shadowColor = UIColor.gray.cgColor
-        cell.eventView.layer.shadowOpacity = 1
+        cell.eventView.setShadow()
         
         return cell
     }

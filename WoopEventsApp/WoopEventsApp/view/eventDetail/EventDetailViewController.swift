@@ -14,8 +14,7 @@ class EventDetailViewController: UIViewController {
     
     @IBOutlet weak var personView: UIView! {
         didSet {
-            personView.layer.cornerRadius = personView.frame.size.width/2
-            personView.clipsToBounds = true
+            personView.setShadow()
             let tapPeople = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
             personView.addGestureRecognizer(tapPeople)
             contentView.addSubview(personView)
@@ -28,8 +27,7 @@ class EventDetailViewController: UIViewController {
     }
     @IBOutlet weak var cuponsView: UIView! {
         didSet {
-            cuponsView.layer.cornerRadius = cuponsView.frame.size.width/2
-            cuponsView.clipsToBounds = true
+            cuponsView.setShadow()
             let tapCupons = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
             cuponsView.addGestureRecognizer(tapCupons)
             contentView.addSubview(cuponsView)
