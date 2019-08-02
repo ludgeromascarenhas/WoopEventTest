@@ -13,3 +13,11 @@ Unit test covers some points of the project.
 
 ## UX/UI
 In this project the concept of UX was to be as simple and intuitive as possible. The UI was based on the Apple Store home screen and the color palette used was taken from a Woop Sicredi banner.
+
+### Screenshots:
+
+#### Event List
+![Event List](https://github.com/ludgeromascarenhas/WoopEventTest/blob/develop/ScreenShots/Events.png "Event List")
+
+#### Event Details
+![Event Detail](https://github.com/ludgeromascarenhas/WoopEventTest/blob/develop/ScreenShots/Event.png "Event List")
