@@ -69,7 +69,7 @@ extension EventListViewController: UITableViewDataSource {
         }
         
         let url = URL(string: (eventViewModel?.eventList[indexPath.row].image)!)
-        cell.backgroundImage.kf.setImage(with: url)
+        cell.backgroundImage.kf.setImage(with: url, placeholder: UIImage(named: "default_background"))
         
         let dayFormatter = DateFormatter(dateFormat: "dd")
         let monthFormatter = DateFormatter(dateFormat: "MMM")
@@ -79,6 +79,12 @@ extension EventListViewController: UITableViewDataSource {
         cell.dayLabel.text = dayFormatter.string(from: date)
         cell.monthLabel.text = monthFormatter.string(from: date).uppercased()
         cell.yearLabel.text = yearFormatter.string(from: date)
+        
+        cell.eventView.layer.shadowPath = UIBezierPath(rect: cell.eventView.bounds).cgPath
+        cell.eventView.layer.shadowRadius = 1.0
+        cell.eventView.layer.shadowOffset = .zero
+        cell.eventView.layer.shadowColor = UIColor.gray.cgColor
+        cell.eventView.layer.shadowOpacity = 1
         
         return cell
     }

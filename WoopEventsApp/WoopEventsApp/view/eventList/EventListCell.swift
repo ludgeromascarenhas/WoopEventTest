@@ -10,15 +10,7 @@ import UIKit
 
 class EventListCell: UITableViewCell {
     
-    @IBOutlet weak var eventView: UIView! {
-        didSet {
-            eventView.layer.shadowOpacity = 0.7
-            eventView.layer.shadowColor = UIColor.gray.cgColor
-            eventView.layer.shadowOffset = .zero
-            eventView.layer.shadowRadius = 8
-            eventView.layer.masksToBounds = true
-        }
-    }
+    @IBOutlet weak var eventView: UIView!
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var dateView: UIView! {

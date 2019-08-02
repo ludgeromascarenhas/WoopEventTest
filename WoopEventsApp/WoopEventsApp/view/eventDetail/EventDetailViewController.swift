@@ -88,7 +88,7 @@ extension EventDetailViewController {
         titleLabel.text = event.title
         
         let url = URL(string: (event.image))
-        backgroundImage.kf.setImage(with: url)
+        backgroundImage.kf.setImage(with: url, placeholder: UIImage(named: "default_background"))
         
         if let price = event?.price, price > 0 {
             let formattedPrice = String(format: "%.2f",
