@@ -137,14 +137,12 @@
 		6DEA05BA22F3C8C2005578A6 /* WoopEventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				6DEA05F622F3CF6C005578A6 /* view */,
 				6DEA05F322F3CDD0005578A6 /* viewModel */,
 				6DEA05EE22F3CC6E005578A6 /* model */,
 				6DEA05E922F3CB23005578A6 /* service */,
 				6DEA05BB22F3C8C2005578A6 /* AppDelegate.swift */,
-				6DEA05BD22F3C8C2005578A6 /* EventListViewController.swift */,
-				6DEA05BF22F3C8C2005578A6 /* Main.storyboard */,
 				6DEA05C222F3C8C3005578A6 /* Assets.xcassets */,
-				6DEA05C422F3C8C3005578A6 /* LaunchScreen.storyboard */,
 				6DEA05C722F3C8C3005578A6 /* Info.plist */,
 			);
 			path = WoopEventsApp;
@@ -192,6 +190,32 @@
 				6DEA05F422F3CDEC005578A6 /* EventViewModel.swift */,
 			);
 			path = viewModel;
+			sourceTree = "<group>";
+		};
+		6DEA05F622F3CF6C005578A6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA05F822F3CFA0005578A6 /* storyboard */,
+				6DEA05F722F3CF7C005578A6 /* eventList */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6DEA05F722F3CF7C005578A6 /* eventList */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA05BD22F3C8C2005578A6 /* EventListViewController.swift */,
+			);
+			path = eventList;
+			sourceTree = "<group>";
+		};
+		6DEA05F822F3CFA0005578A6 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA05BF22F3C8C2005578A6 /* Main.storyboard */,
+				6DEA05C422F3C8C3005578A6 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 		AC53F3E3C27C9225019C348B /* Frameworks */ = {
