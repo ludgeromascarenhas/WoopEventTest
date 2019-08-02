@@ -73,7 +73,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                             <constraints>
                                                                 <constraint firstItem="mgO-GP-P5S" firstAttribute="leading" secondItem="pav-8x-gIm" secondAttribute="leading" id="0sK-aH-WfJ"/>
                                                                 <constraint firstItem="UlK-kP-lhS" firstAttribute="top" secondItem="pav-8x-gIm" secondAttribute="top" id="9dU-Ht-MbC"/>
@@ -109,10 +109,7 @@
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ed-O1-u5T">
-                                                            <rect key="frame" x="10" y="343" width="246" height="30"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="30" id="odv-P7-wyO"/>
-                                                            </constraints>
+                                                            <rect key="frame" x="10" y="373" width="246" height="0.0"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>

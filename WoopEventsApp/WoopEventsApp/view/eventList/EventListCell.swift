@@ -23,7 +23,7 @@ class EventListCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var dateView: UIView! {
         didSet {
-            dateView.layer.cornerRadius = 15
+            dateView.layer.cornerRadius = 8
             dateView.layer.masksToBounds = true
         }
     }
