@@ -23,13 +23,13 @@ class EventListCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var dateView: UIView! {
         didSet {
-            dateView.layer.cornerRadius = 10
+            dateView.layer.cornerRadius = 15
             dateView.layer.masksToBounds = true
         }
     }
     @IBOutlet weak var priceView: UIView! {
         didSet {
-            priceView.layer.cornerRadius = 10
+            priceView.layer.cornerRadius = 15
             priceView.layer.masksToBounds = true
         }
     }

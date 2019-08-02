@@ -15,7 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
+        let mainVC = storyboard.instantiateViewController(withIdentifier: "eventListViewController") as! EventListViewController
+        
+        let eventViewModel = EventViewModel()
+        mainVC.eventViewModel = eventViewModel
+
+        let navigationController = UINavigationController(rootViewController: mainVC)
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
