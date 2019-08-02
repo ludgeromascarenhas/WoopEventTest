@@ -20,6 +20,7 @@
 		6DEA05ED22F3CBDE005578A6 /* EndpointsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05EC22F3CBDE005578A6 /* EndpointsAPI.swift */; };
 		6DEA05F022F3CCB5005578A6 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05EF22F3CCB5005578A6 /* EventModel.swift */; };
 		6DEA05F222F3CCD8005578A6 /* CheckinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05F122F3CCD8005578A6 /* CheckinModel.swift */; };
+		6DEA05F522F3CDEC005578A6 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05F422F3CDEC005578A6 /* EventViewModel.swift */; };
 		9DD9DEBF12752D727D5CA2F4 /* libPods-WoopEventsAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA5F7F99C84564D70DF43C /* libPods-WoopEventsAppUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		6DEA05EC22F3CBDE005578A6 /* EndpointsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsAPI.swift; sourceTree = "<group>"; };
 		6DEA05EF22F3CCB5005578A6 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		6DEA05F122F3CCD8005578A6 /* CheckinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinModel.swift; sourceTree = "<group>"; };
+		6DEA05F422F3CDEC005578A6 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
 		86DEF58BCDFEB66B313FF231 /* libPods-WoopEventsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEventsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B95E92822A225B95FA2B594 /* Pods-WoopEventsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEventsApp.release.xcconfig"; path = "Target Support Files/Pods-WoopEventsApp/Pods-WoopEventsApp.release.xcconfig"; sourceTree = "<group>"; };
 		AEEB3B6D99BDFB42732721D8 /* libPods-WoopEventsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEventsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 		6DEA05BA22F3C8C2005578A6 /* WoopEventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				6DEA05F322F3CDD0005578A6 /* viewModel */,
 				6DEA05EE22F3CC6E005578A6 /* model */,
 				6DEA05E922F3CB23005578A6 /* service */,
 				6DEA05BB22F3C8C2005578A6 /* AppDelegate.swift */,
@@ -181,6 +184,14 @@
 				6DEA05F122F3CCD8005578A6 /* CheckinModel.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		6DEA05F322F3CDD0005578A6 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA05F422F3CDEC005578A6 /* EventViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 		AC53F3E3C27C9225019C348B /* Frameworks */ = {
@@ -401,6 +412,7 @@
 				6DEA05EB22F3CB87005578A6 /* Resource.swift in Sources */,
 				6DEA05F022F3CCB5005578A6 /* EventModel.swift in Sources */,
 				6DEA05ED22F3CBDE005578A6 /* EndpointsAPI.swift in Sources */,
+				6DEA05F522F3CDEC005578A6 /* EventViewModel.swift in Sources */,
 				6DEA05F222F3CCD8005578A6 /* CheckinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
