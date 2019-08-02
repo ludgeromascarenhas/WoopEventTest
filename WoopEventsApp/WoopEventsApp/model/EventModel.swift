@@ -68,3 +68,11 @@ struct CuponModel: Codable {
     var eventId: String
     var discount: Int
 }
+
+extension EventModel: Equatable {
+    static func == (lhs: EventModel, rhs: EventModel) -> Bool {
+        return lhs.id == rhs.id &&
+            lhs.title == rhs.title &&
+            lhs.description == rhs.description
+    }
+}

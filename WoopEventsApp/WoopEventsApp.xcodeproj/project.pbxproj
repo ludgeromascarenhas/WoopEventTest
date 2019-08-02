@@ -24,6 +24,13 @@
 		6DEA05FA22F3D59D005578A6 /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05F922F3D59D005578A6 /* EventListCell.swift */; };
 		6DEA05FD22F3DA55005578A6 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05FC22F3DA55005578A6 /* EventDetailViewController.swift */; };
 		6DEA060022F3DB82005578A6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05FF22F3DB82005578A6 /* Util.swift */; };
+		6DEA060222F47730005578A6 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA060122F47730005578A6 /* AppDelegateTests.swift */; };
+		6DEA060422F479E8005578A6 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA060322F479E8005578A6 /* events.json */; };
+		6DEA060622F47A20005578A6 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA060522F47A20005578A6 /* event.json */; };
+		6DEA060822F47AB5005578A6 /* EventModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA060722F47AB5005578A6 /* EventModelTests.swift */; };
+		6DEA060A22F48087005578A6 /* EventViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA060922F48087005578A6 /* EventViewModelTests.swift */; };
+		6DEA060C22F48452005578A6 /* EventListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA060B22F48452005578A6 /* EventListViewControllerTests.swift */; };
+		6DEA060E22F48903005578A6 /* EventDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA060D22F48903005578A6 /* EventDetailViewControllerTests.swift */; };
 		9DD9DEBF12752D727D5CA2F4 /* libPods-WoopEventsAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA5F7F99C84564D70DF43C /* libPods-WoopEventsAppUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +78,13 @@
 		6DEA05F922F3D59D005578A6 /* EventListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
 		6DEA05FC22F3DA55005578A6 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 		6DEA05FF22F3DB82005578A6 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6DEA060122F47730005578A6 /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
+		6DEA060322F479E8005578A6 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = events.json; path = "../../../woop-ios/woop/MockData/events.json"; sourceTree = "<group>"; };
+		6DEA060522F47A20005578A6 /* event.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = event.json; path = ../../../event.json; sourceTree = "<group>"; };
+		6DEA060722F47AB5005578A6 /* EventModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModelTests.swift; sourceTree = "<group>"; };
+		6DEA060922F48087005578A6 /* EventViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModelTests.swift; sourceTree = "<group>"; };
+		6DEA060B22F48452005578A6 /* EventListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewControllerTests.swift; sourceTree = "<group>"; };
+		6DEA060D22F48903005578A6 /* EventDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		86DEF58BCDFEB66B313FF231 /* libPods-WoopEventsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEventsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B95E92822A225B95FA2B594 /* Pods-WoopEventsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEventsApp.release.xcconfig"; path = "Target Support Files/Pods-WoopEventsApp/Pods-WoopEventsApp.release.xcconfig"; sourceTree = "<group>"; };
 		AEEB3B6D99BDFB42732721D8 /* libPods-WoopEventsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WoopEventsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,8 +172,15 @@
 		6DEA05CF22F3C8C3005578A6 /* WoopEventsAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				6DEA060522F47A20005578A6 /* event.json */,
+				6DEA060322F479E8005578A6 /* events.json */,
 				6DEA05D022F3C8C3005578A6 /* WoopEventsAppTests.swift */,
 				6DEA05D222F3C8C3005578A6 /* Info.plist */,
+				6DEA060122F47730005578A6 /* AppDelegateTests.swift */,
+				6DEA060722F47AB5005578A6 /* EventModelTests.swift */,
+				6DEA060922F48087005578A6 /* EventViewModelTests.swift */,
+				6DEA060B22F48452005578A6 /* EventListViewControllerTests.swift */,
+				6DEA060D22F48903005578A6 /* EventDetailViewControllerTests.swift */,
 			);
 			path = WoopEventsAppTests;
 			sourceTree = "<group>";
@@ -370,6 +391,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEA060622F47A20005578A6 /* event.json in Resources */,
+				6DEA060422F479E8005578A6 /* events.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +496,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEA060822F47AB5005578A6 /* EventModelTests.swift in Sources */,
+				6DEA060A22F48087005578A6 /* EventViewModelTests.swift in Sources */,
+				6DEA060E22F48903005578A6 /* EventDetailViewControllerTests.swift in Sources */,
+				6DEA060222F47730005578A6 /* AppDelegateTests.swift in Sources */,
 				6DEA05D122F3C8C3005578A6 /* WoopEventsAppTests.swift in Sources */,
+				6DEA060C22F48452005578A6 /* EventListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
