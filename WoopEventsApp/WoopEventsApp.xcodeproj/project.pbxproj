@@ -10,7 +10,7 @@
 		353F02ED343CAB135A9F656A /* libPods-WoopEventsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB3B6D99BDFB42732721D8 /* libPods-WoopEventsAppTests.a */; };
 		657AB154ABED94D911A791F9 /* libPods-WoopEventsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DEF58BCDFEB66B313FF231 /* libPods-WoopEventsApp.a */; };
 		6DEA05BC22F3C8C2005578A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05BB22F3C8C2005578A6 /* AppDelegate.swift */; };
-		6DEA05BE22F3C8C2005578A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05BD22F3C8C2005578A6 /* ViewController.swift */; };
+		6DEA05BE22F3C8C2005578A6 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA05BD22F3C8C2005578A6 /* EventListViewController.swift */; };
 		6DEA05C122F3C8C2005578A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA05BF22F3C8C2005578A6 /* Main.storyboard */; };
 		6DEA05C322F3C8C3005578A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA05C222F3C8C3005578A6 /* Assets.xcassets */; };
 		6DEA05C622F3C8C3005578A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEA05C422F3C8C3005578A6 /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 		5B8C7C8BB43BEB8C3B16EA1D /* Pods-WoopEventsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopEventsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WoopEventsAppUITests/Pods-WoopEventsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6DEA05B822F3C8C2005578A6 /* WoopEventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoopEventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEA05BB22F3C8C2005578A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DEA05BD22F3C8C2005578A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DEA05BD22F3C8C2005578A6 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		6DEA05C022F3C8C2005578A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DEA05C222F3C8C3005578A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DEA05C522F3C8C3005578A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				6DEA05EE22F3CC6E005578A6 /* model */,
 				6DEA05E922F3CB23005578A6 /* service */,
 				6DEA05BB22F3C8C2005578A6 /* AppDelegate.swift */,
-				6DEA05BD22F3C8C2005578A6 /* ViewController.swift */,
+				6DEA05BD22F3C8C2005578A6 /* EventListViewController.swift */,
 				6DEA05BF22F3C8C2005578A6 /* Main.storyboard */,
 				6DEA05C222F3C8C3005578A6 /* Assets.xcassets */,
 				6DEA05C422F3C8C3005578A6 /* LaunchScreen.storyboard */,
@@ -407,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DEA05BE22F3C8C2005578A6 /* ViewController.swift in Sources */,
+				6DEA05BE22F3C8C2005578A6 /* EventListViewController.swift in Sources */,
 				6DEA05BC22F3C8C2005578A6 /* AppDelegate.swift in Sources */,
 				6DEA05EB22F3CB87005578A6 /* Resource.swift in Sources */,
 				6DEA05F022F3CCB5005578A6 /* EventModel.swift in Sources */,

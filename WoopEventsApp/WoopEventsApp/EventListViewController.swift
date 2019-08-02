@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EventListViewController.swift
 //  WoopEventsApp
 //
 //  Created by Ludgero Gil Mascarenhas on 01/08/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EventListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
