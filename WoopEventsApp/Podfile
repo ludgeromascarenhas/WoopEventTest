@@ -1,0 +1,17 @@
+# platform :ios, '9.0'
+
+def common_pods
+  	pod 'Kingfisher'
+end
+
+target 'WoopEventsApp' do
+	common_pods
+end
+
+target 'WoopEventsAppTests' do
+	common_pods    
+end
+
+target 'WoopEventsAppUITests' do
+	common_pods
+end

@@ -1,0 +1,6 @@
+module Pods_WoopEventsApp {
+  umbrella header "Pods-WoopEventsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
